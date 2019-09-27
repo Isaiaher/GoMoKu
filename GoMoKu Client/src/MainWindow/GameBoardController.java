@@ -351,7 +351,6 @@ public class GameBoardController {
                 }
                 else{
                     count = 0;
-                    //System.out.println("COUNT IS NOW 0 MOTHER FUCKER");
                     if(this.gm.boardArray[i][j] != 0){
                         temp = this.gm.boardArray[i][j];
                         count++;
